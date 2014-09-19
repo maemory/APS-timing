@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{epsfig}
+
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\newcommand{\newsection}{\setcounter{equation}{0}\section}
+
+%%\renewcommand{\baselinestretch}{2.0} % for double spacing use {2}
+
+\textheight 9.0truein
+\parskip 0in
+\topmargin -0.5truein \textwidth 6.5truein \oddsidemargin -0.05in
+\evensidemargin -0.05in
+%\renewcommand{\baselinestretch}{2}   %line space adjusted here
+\setcounter{footnote}{0}
+
+
+\begin{document}
+
+\begin{center}
+{\large \bf APS DFD Timing Code}
+\\[0.05cm]
+\end{center}
+
+%\noindent \textbf{{\large 1 General Description}}
+%    \vskip0.01cm
+
+\noindent  In general, the APS\_DFD is a timer for conference presentation.  It comes with several matlab programs that run a excel spreedsheet that contains the schedule of the entire conference.  The program generates a screen that display the real-time schedule of the conference.  The following is a to-do list to run the program:
+
+\begin{itemize}
+ \item[1.]  Make sure the following list of programs are in your current directory:
+ \begin{itemize}
+  \item APS\_DFD.m
+  \item session.m
+  \item loadTimingData.m
+  \item update\_delay.m
+  \item initbells.m
+  \item playbells.m
+  \item drawtime.m
+  \item setup/APS\_DFD\_setup.dat (or a file name of your choice; specified in APS\_DFD.m)
+  \item 1bell.wav
+  \item 2bells.wav
+  \item 3bells.wav
+ \end{itemize}
+
+ \item[2.]  Have the schedule of the conference ready and save it as ``setup/APS\_DFD\_setup.dat''.  Give the hours in 24-hour format, e.g. 12:00 AM is 0 hours 0 minutes and 12:00 PM is 12 hours 0 minutes.  For simplicity, you can edit this using Microsoft Excel.  APS\_DFD.m will read in the schedule.  The last line sets the current day (which is 1 right now).  If you have to restart due to a change in schedule or otherwise, you need to set this to the appropriate day.
+ \item[3.]  Define your preferred font in the ``APS\_DFD.m'' file.
+ \item[4.]  Define whether or not you want to play Bells ('Y' or 'N')
+ \item[5.]  Define your platform ('lin', 'win', or 'mac') (because the best sound command is different on each platform)
+
+ \item[6.]  Run APS\_DFD.m and you should see a screen come up showing the title of the conference and the first session.
+
+ \item[7.]  Delays can be implemented by pressing the '$<$' and '$>$' keys on the keyboard while in the screen:
+   \begin{itemize}
+    \item '$>$' instructs the program to add 1 minute delay to the schedule,
+    \item '$<$' instructs the program to subtract 1 minute delay to the schedule.
+   \end{itemize}
+   In other word, use '$>$' when the schedule is running late and '$<$' when the schedule is running fast.
+
+
+\end{itemize}
+
+
+
+\parskip -0.1in
+
+\end{document} 

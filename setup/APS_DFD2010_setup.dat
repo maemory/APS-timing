@@ -1,0 +1,21 @@
+Day	hour	minute	# talks	Talk time	Warning time	Question time	Transition	Title	wait message
+1	7	0	1	55	5	0	0	Breakfast	Welcome APS:DFD 2010 participants
+1	8	0	10	10	2	2	1	APS/DFD: Sessions AA-AZ	Time until sessions AA-AZ start:
+1	10	15	1	35	5	0	0	APS/DFD Awards Presentations	Time until Award Presentations start:
+1	10	55	1	40	2	5	0	APS/DFD Fluid Mechanics Prize \n Otto Laporte Lecture: \n Explaining the Flow of Elastic Liquids \n by: John Hinch	Time until Otto Laporte Lecture:
+1	13	0	10	10	2	2	1	APS/DFD: Sessions CA-CZ	Time until sessions CA-CZ start:
+1	15	30	1	30	2	5	0	APS/DFD Invited Lectures:\n Andrea Bertozzi (Grand Ballroom A) \n Jerry Tessendorf (Grand Ballroom B)	Time until invited talks D1 & D2:
+1	16	10	10	10	2	2	1	APS/DFD: Sessions EA-EZ	Time until sessions EA-EZ start:
+1	19	0	1	150	0	0	0	APS/DFD: Reception	Please make your way to \n the Aquarium of the Pacific
+2	8	0	10	10	2	2	1	APS/DFD: Sessions GA-GZ	Time until sessions GA-GZ start:
+2	10	30	10	10	2	2	1	APS/DFD: Sessions HA-HZ	Time until sessions HA-HZ start:
+2	14	0	1	30	2	5	0	APS/DFD Invited Lectures:\n Daniele Carati (Ballroom A) \n Christophe Clanet (Ballroom B)	Time until invited lectures J1 & J2 start:
+2	14	40	1	30	2	5	0	APS/DFD Invited Lectures:\n Ross Griffiths (Ballroom A) \n Minami Yoda (Ballroom B)	Time until invited lectures K1 & K2 start:
+2	15	35	10	10	2	2	1	APS/DFD: Sessions LA-LW	Time until sessions LA-LW start:
+3	8	0	10	10	2	2	1	APS/DFD: Sessions MA-MW	Time until sessions MA-MW start:
+3	10	30	1	30	2	5	0	APS/DFD Invited Lectures:\n James Riley (Ballroom A) \n Paul Steen (Ballroom B)	Time until invited lectures N1 & N2:
+3	11	10	1	20	2	5	0	APS/DFD Award Lectures:\n  Andreas Acrivos Dissertation Award Lecture - Matthew Paoletti (Ballroom A) \n Francois Frenkiel Award Lecture - Edwin Greco (Ballroom B)	Time until Andreas Acrivos and \n and Francois Frenkiel award lectures:
+3	12	50	10	10	2	2	1	APS/DFD: Sessions QA - QZ	Time until sessions QA-QZ start:
+3	15	5	8	10	2	2	1	APS/DFD: Sessions RA - RZ	Time until sessions RA-RZ start:
+3	16	55	1	150	0	0	0	APS/DFD: Thank you all participants!	Phew!
+Current Day:	1	(Only need to set if you had to restart the program)							

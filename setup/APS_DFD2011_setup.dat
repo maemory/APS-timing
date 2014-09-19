@@ -1,0 +1,26 @@
+Day	hour	minute	# talks	Talk time	Warning time	Question time	Transition	Title	wait message
+1	7	0	1	55	5	0	0	Breakfast \n Welcome APS:DFD 2011 participants	Time until breakfast:
+1	8	0	10	10	2	2	1	APS/DFD-2011: Sessions A1-A27	Time until sessions A1-A27 start:
+1	10	15	1	25	5	0	0	APS/DFD-2011: Awards Presentations \n (Ballroom I-IV)	Time until Award Presentations start:
+1	10	41	1	40	2	5	1	APS/DFD-2011: Fluid Mechanics Prize \n Otto Laporte Lecture (Ballroom I-IV):  \n by: Tony Maxworthy	Time until Otto Laporte Lecture:
+1	11	27	1	40	2	5	1	APS/DFD-2011: Stanley Corrsin  \n Award Talk  (Ballroom I-IV):  \n by: Charles Meneveau	Time until Corrsin Award Talk:
+1	13	30	1	30	2	5	0	APS/DFD-2011: Invited Lectures:\n Isabelle Cantat (Ballroom I-II) \n Frank E. Fish  (Ballroom III-IV)	Time until invited talks C27 & C29:
+1	14	10	10	10	2	2	1	APS/DFD-2011: Sessions D1-D27	Time until sessions D1-D27 start:
+1	16	40	10	10	2	2	1	APS/DFD-2011: Sessions E1-E26	Time until sessions E1-E26 start:
+1	19	0	1	150	0	0	0	APS/DFD-2011: Reception \n (Ballroom I-IV)	Please make your way to the Ballroom \n Time until Reception starts:
+2	8	0	10	10	2	2	1	APS/DFD-2011: Sessions G1-G30	Time until sessions G1-G30 start:
+2	10	30	10	10	2	2	1	APS/DFD-2011: Sessions H1-H30	Time until sessions H1-H30 start:
+2	14	0	1	30	2	5	0	APS/DFD-2011: Invited Lectures:\n Julian Hunt (Ballroom I-II) \n Neelesh Patankar (Ballroom III-IV)	Time until invited lectures J27 & J29 start:
+2	14	40	1	30	2	5	0	APS/DFD-2011: Invited Lectures:\n Beverley McKeon (Ballroom I-II) \n Gretar Tryggvason (Ballroom III-IV)	Time until invited lectures K27 & K29 start:
+2	15	15	1	15	0	0	0	APS/DFD-2011: \n Poster Session (3:15-5:00pm) \n  Room: Ballroom I-IV Foyer 	Time until Poster Session LA
+2	15	35	10	10	2	2	1	APS/DFD-2011: Sessions L1-L29	Time until sessions L1-L29 start:
+3	8	0	10	10	2	2	1	APS/DFD-2011: Sessions M1-M30	Time until sessions M1-M30 start:
+3	10	40	1	30	2	5	0	APS/DFD-2011: Invited Lectures:\n Mark Robbins (Ballroom I-II) \n Emmanuel Villermaux (Ballroom III-IV)	Time until invited lectures N27 & N29:
+3	11	20	1	20	2	5	0	A. Acrivos and F. Frenkiel Award Lectures:\n P. Luzzatto-Fegiz (Ballroom I-II) \n K.T. Kristensen (Ballroom III-IV)	Time until Andreas Acrivos and \n and Francois Frenkiel Award lectures:
+3	12	50	10	10	2	2	1	APS/DFD-2011: Sessions R1 - R30	Time until sessions R1 - R30 start:
+3	15	5	10	10	2	2	1	APS/DFD-2011: Sessions S1 - S30	Time until sessions S1 - S30 start:
+3	17	14	1	60	0	0	0	APS/DFD-2011: \n Thank you all participants!\n We hope you enjoyed your stay in Baltimore!	.
+Current Day:	2	(Only need to set if you had to restart the program)							
+
+
+

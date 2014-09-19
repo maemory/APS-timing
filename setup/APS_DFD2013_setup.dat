@@ -1,0 +1,22 @@
+Day	hour	minute	# talks	Talk time	Warning time	Question time	Transition	Title	wait message
+1	7	0	1	55	5	0	0	\n Welcome APS/DFD-2013 participants	:
+1	8	0	9	10	2	2	1	APS/DFD-2013: Sessions A1-A36	Time until sessions A1-A36 start:
+1	10	25	1	25	5	0	0	APS/DFD-2013: Awards Presentations \n (Ballroom A/B/C)	Time until Award Presentations start:
+1	10	50	1	40	2	5	0	APS/DFD-2013: Fluid Mechanics Prize \n Otto Laporte Lecture \n (Ballroom A/B/C)  \n by: Elaine Oran	Time until Otto Laporte Lecture:
+1	11	35	1	40	2	5	0	APS/DFD-2013: Stanley Corrsin  \n Award Talk  (Ballroom A/B/C)  \n by: Michael Brenner	Time until Corrsin Award Talk:
+1	13	35	1	30	2	5	0	APS/DFD-2013: Invited Lectures:\n Karen Flack (Ballroom A) \n Anke Linder (Ballroom B/C)	Time until invited talks C27 & C28:
+1	14	15	10	10	2	2	1	APS/DFD-2013: Sessions D1-D36	Time until sessions D1-D36 start:
+1	16	45	6	10	2	2	1	APS/DFD-2013: Sessions E1-E36	Time until sessions E1-E36 start:
+1	18	15	1	45	0	0	0	APS/DFD-2013: \n Poster Session 1A-1B \n  1A (South Terrace Foyer) \n 1B (Spirit of Pittsburgh Ballroom Gallery)	Time until Poster Session 1A-1B start:
+1	19	0	1	150	0	0	0	APS/DFD-2013: Reception \n (Noresco Riverside Terrace & Exhibit Hall A)	\n Time until Reception starts:
+2	8	0	10	10	2	2	1	APS/DFD-2013: Sessions G1-G36	Time until sessions G1-G36 start:
+2	10	30	10	10	2	2	1	APS/DFD-2013: Sessions H1-H36	Time until sessions H1-H36 start:
+2	14	0	1	30	2	5	0	APS/DFD-2013: Invited Lectures:\n John Dabiri (Ballroom A) \n William Sirignano (Ballroom B/C)	Time until invited lectures J27 & J28 start:
+2	14	40	1	30	2	5	0	APS/DFD-2013: Invited Lectures:\n John Lister (Ballroom A) \n Michael Graham (Ballroom B/C)	Time until invited lectures K27 & K28 start:
+2	15	35	12	10	2	2	1	APS/DFD-2013: Sessions L1-L36	Time until sessions L1-L36 start:
+3	8	0	10	10	2	2	1	APS/DFD-2013: Sessions M1-M36	Time until sessions M1-M36 start:
+3	10	30	1	30	2	5	0	APS/DFD-2013: Invited Lectures:\n Ann Karagozian (Ballroom A) \n Daniel Goldman (Ballroom B/C)	Time until invited lectures N27 & N28 start:
+3	11	10	1	17	2	3	0	APS/DFD-2013: \n A. Acrivos and F. Frenkiel Award Lectures:\n Bishakhdatta Gayen (Ballroom A) \n Diego Donzis (Ballroom B/C)	Time until Award lectures start:
+3	13	5	12	10	2	2	1	APS/DFD-2013: Sessions R1 - R36	Time until sessions R1 - R36 start:
+3	15	41	1	60	0	0	0	APS/DFD-2013: \n Thank you all participants!\n We hope you enjoyed your stay \n in Pittsburgh!	.
+Current Day:	1	(Only need to set if you had to restart the program)

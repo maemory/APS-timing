@@ -1,0 +1,18 @@
+Day	hour	minute	# talks	Talk time	Warning time	Question time	Transition	Title	wait message
+1	8	0	10	10	2	2	1	APS/DFD: Sessions AA-AW	Time until sessions AA-AW start:
+1	10	30	10	10	2	2	1	APS/DFD: Sessions BA-BW	Time until sessions BA-BW start:
+1	14	0	1	25	2	0	0	APS/DFD Awards Presentations	Time until Award Presentations start:
+1	14	25	1	40	2	5	0	APS/DFD Fluid Mechanics Prize \n Otto Laporte Lecture: \n Simple Models for Turbulent Flows \n by: Stephen B. Pope	Time until Otto Laporte Lecture:
+1	15	20	1	30	2	5	0	APS/DFD Invited Lectures:\n Haecheon Choi (Room: 205ABCD) \n W. Kendall Melville (Room: 208ABCD)	Time until invited talks D1 & D2:
+1	16	15	10	10	2	2	1	APS/DFD: Sessions EA-EW	Time until sessions EA-EW start:
+1	19	0	1	150	0	0	0	APS/DFD: Reception	Please make your way to \n the ????
+2	8	0	10	10	2	2	1	APS/DFD: Sessions GA-GW	Time until sessions GA-GW start:
+2	10	30	10	10	2	2	1	APS/DFD: Sessions HA-HW	Time until sessions HA-HW start:
+2	14	0	1	30	2	5	0	APS/DFD Invited Lectures:\n Lance Munn (Room: 205ABCD) \n Michael Manga (Room: 208ABCD)	Time until invited lectures J1 & J2 start:
+2	14	40	1	30	2	5	0	APS/DFD Invited Lectures:\n Noel Clemens (Room: 205ABCD) \n Steven Ceccio (Room: 208ABCD)	Time until invited lectures K1 & K2 start:
+2	15	35	10	10	2	2	1	APS/DFD: Sessions LA-LW	Time until sessions LA-LW start:
+3	8	0	10	10	2	2	1	APS/DFD: Sessions MA-MW	Time until sessions MA-MW start:
+3	10	30	1	30	2	5	0	APS/DFD Invited Lectures:\n Laurette Tuckerman (Room: 205ABCD) \n Panayiotis Diplas (Room: 208ABCD)	Time until invited lectures N1 & N2:
+3	11	10	1	20	2	5	0	APS/DFD Award Lectures:\n  Andreas Acrivos Dissertation Award Lecture - Xiaoyi Li (Room: 205ABCD) \n Francois Frenkiel Award Lecture - ???? (Room: 208ABCD)	Time until Andreas Acrivos and \n and Francois Frenkiel award lectures:
+3	11	40	10	10	2	2	1	APS/DFD: Sessions PA - PW	Time until sessions PA-PV start:
+Current Day:	1	(Only need to set if you had to restart the program)							

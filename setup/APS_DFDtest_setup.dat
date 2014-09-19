@@ -1,0 +1,6 @@
+Day	hour	minute	# talks	Talk time	Warning time	Question time	Transition	Title	wait message
+1	7	0	1	55	5	0	5	Breakfast	testing123
+1	8	0	10	10	2	2	1	APS/DFD: Sessions AA-AW	Time until sessions AA-AW start:
+1	10	30	10	10	2	2	1	APS/DFD: Sessions BA-BW	Time until sessions BA-BW start:
+1	14	0	1	25	2	0	0	APS/DFD Awards Presentations	Time until Award Presentations start:
+Current Day:	1	(Only need to set if you had to restart the program)							

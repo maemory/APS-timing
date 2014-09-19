@@ -1,0 +1,66 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APS_DFD.m  version 1.1.2  - modified by Andrew Duggleby 12/08
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clear;  format compact;
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% On the day of the conference, we have to do the following four things:
+%
+% Define your preferred font
+% font='Palatino Linotype'
+font='Luxi Serif';
+%
+% Define whether or not you want to play Bells ('Y' or 'N')
+bells='N';
+%
+% Define your platform ('lin', 'win', or 'mac')
+% (because the best sound command is different on each platform)
+platform='win';
+
+% Set the schedule in the APS_DFD_setup.dat file
+% For simplicity, you can edit this using Microsoft Excel
+% This code will read in the schedule.  The last line sets the current day
+% (which is 1 right now).  If you have to restart due to a change in
+% schedule or otherwise, you need to set this to the appropriate day.
+
+% You shouldn't have to modify anything below this point.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Room = sprintf('Generic');
+delay=0;
+
+% Define the window names
+window_name='APS/DFD Conference';
+initbells;  bell=1;  playbells;
+[sessionData, N]=loadTimingData();
+
+currentDay=num2str(sessionData{18}{2});
+istart=2;
+while currentDay~=sessionData{istart}{1};
+    istart=istart+1;
+end
+
+for i=istart:N %i=1 is the description of data
+    session_text={sessionData{i}{9}};
+    start_time=[str2num(sessionData{i}{2}) str2num(sessionData{i}{3})];
+    number_of_talks=str2num(sessionData{i}{4});
+    talk_time=str2num(sessionData{i}{5});
+    warning_time=str2num(sessionData{i}{6});
+    qa_time=str2num(sessionData{i}{7});
+    transition_time=str2num(sessionData{i}{8});
+    wait_message=sessionData{i}{9};
+    test_bells=1;
+    session
+
+    if (str2num(sessionData{i}{1})<3);
+        if (sessionData{i+1}{1}~=sessionData{i}{1})
+            currentTime=clock;
+            wait_time=5+(59-currentTime(6))+(59-currentTime(5))*60+(23-currentTime(4))*60*60;  %timer will start running 2 hours before the start of next day's session
+            pause(wait_time)
+        end
+    end
+end
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
