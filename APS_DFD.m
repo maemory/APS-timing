@@ -5,7 +5,7 @@
 %       characters are interpreted correctly
 %   line 58: sessionData{1}{10}, not {1}{9}
 %   Set NLIN in preliminary data for number of lines in APS_DFD_SETUP.dat
-% Minor modifications/bug fixes by Michael Emory  9/14
+% Minor modifications by Michael Emory  9/14
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear;  format compact;
 
@@ -23,7 +23,9 @@ clear;  format compact;
 
 % Other
 %font='Palatino Linotype'
-font='Luxi Serif';
+%font='Luxi Serif';
+font='Helvetica Neue';
+%font='Zapfino';
 
 %
 % Define whether or not you want to play Bells ('Y' or 'N')
@@ -39,7 +41,7 @@ platform='mac';
 % For simplicity, you can edit this using Microsoft Excel
 timing_setup='setup/APS_DFD2014_setup.dat';
 
-% This code will read in the schedule.  The last line sets the current day
+% This code will read in the schedule.  The last line specifies the current day
 % (which is 1 right now).  If you have to restart due to a change in
 % schedule or otherwise, you need to set this to the appropriate day.
 NLIN = 22;
