@@ -96,9 +96,9 @@ if (time<number_of_talks*interval)
                     set(cf,'DefaultTextColor','white')
                     set(cf,'Color','black')
                     h0=text(0.48,1.05,session_text);
-                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.09)
+                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.08)
                     h=text(-0.05,0.62,wait_message);
-                    set(h,'HorizontalAlignment','left','FontSize',0.075)
+                    set(h,'HorizontalAlignment','left','FontSize',0.07)
                     [h1,h2]=drawtime(min,sec);
                     if test1
                         h3=text(-0.05,-0.05,'Test bells will sound 1 min prior to session.');
@@ -111,7 +111,7 @@ if (time<number_of_talks*interval)
                     set(cf,'DefaultTextColor','white')
                     set(cf,'Color',[0 0.75 0])
                     h0=text(0.48,1.05,session_text);
-                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.09)
+                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.08)
                     if number_of_talks>1
                         h=text(-0.05,0.62,sprintf('Time left in talk #%d:',talk));
                     else
@@ -121,38 +121,38 @@ if (time<number_of_talks*interval)
                             h=text(-0.05,0.62,sprintf('Time left:'));
                         end
                     end
-                    set(h,'HorizontalAlignment','left','FontSize',0.09)
+                    set(h,'HorizontalAlignment','left','FontSize',0.07)
                     [h1,h2]=drawtime(min,sec);
                     bell=1;  playbells;
                 case 2
                     set(cf,'DefaultTextColor','black')
                     set(cf,'Color','yellow')
                     h0=text(0.48,1.05,session_text);
-                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.09)
+                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.08)
                     if number_of_talks>1
                         h=text(-0.05,0.62,sprintf('Time left in talk #%d:',talk));
                     else
                         h=text(-0.05,0.62,sprintf('Time left in talk:'));
                     end
-                    set(h,'HorizontalAlignment','left','FontSize',0.09)
+                    set(h,'HorizontalAlignment','left','FontSize',0.07)
                     [h1,h2]=drawtime(min,sec);
                     bell=1;  playbells;
                 case 3
                     set(cf,'DefaultTextColor','white')
                     set(cf,'Color','red')
                     h=text(0.48,0.9,'QUESTION/ANSWER PERIOD');
-                    set(h,'HorizontalAlignment','center','FontSize',0.09)
+                    set(h,'HorizontalAlignment','center','FontSize',0.08)
                     h3=text(-0.05,0.62,'Time left:');
-                    set(h3,'HorizontalAlignment','left','FontSize',0.09)
+                    set(h3,'HorizontalAlignment','left','FontSize',0.07)
                     [h1,h2]=drawtime(min,sec);
                     bell=2;  playbells;
                 case 4
                     set(cf,'DefaultTextColor','white')
                     set(cf,'Color','black')
                     h0=text(0.48,1.05,session_text);
-                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.09)
+                    set(h0,'HorizontalAlignment','center','VerticalAlignment','top','FontSize',0.08)
                     h3=text(-0.05,0.62,sprintf('Time until beginning of talk #%d:',talk+1));
-                    set(h3,'HorizontalAlignment','left','FontSize',0.09)
+                    set(h3,'HorizontalAlignment','left','FontSize',0.07)
                     [h1,h2]=drawtime(min,sec);
                     bell=3;  playbells;
                 case 5

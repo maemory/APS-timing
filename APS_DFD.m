@@ -6,6 +6,7 @@
 %   line 58: sessionData{1}{10}, not {1}{9}
 %   Set NLIN in preliminary data for number of lines in APS_DFD_SETUP.dat
 % Minor modifications by Michael Emory  9/14
+%   - sessions.m changed to use smaller font sizes, to fit longer text
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear;  format compact;
 
@@ -39,7 +40,7 @@ platform='mac';
 
 % Specify input file
 % For simplicity, you can edit this using Microsoft Excel
-timing_setup='setup/APS_DFD2014_setup.dat';
+timing_setup='setup/APS_DFD2014b_setup.txt';
 
 % This code will read in the schedule.  The last line specifies the current day
 % (which is 1 right now).  If you have to restart due to a change in
