@@ -1,22 +1,22 @@
 Day	hour	minute	# talks	Talk time	Warning time	Question time	Transition	Title	wait message
-1	7	0	1	55	5	0	0	\n Welcome APS/DFD-2014 participants	:
+1	7	0	1	55	5	0	0	APS/DFD-2014\n Welcome participants!	:
 1	8	0	9	10	2	2	1	APS/DFD-2014: Sessions A1-A36	Time until sessions A1-A36 start:
-1	10	25	1	25	5	0	0	APS/DFD-2014: Awards Presentations \n (Level 1 Hall)	Time until Award Presentations start:
-1	11	0	1	40	2	5	0	APS/DFD-2014: Fluid Mechanics Prize \n Otto Laporte Lecture \n (Level 1 Hall) \n Genevieve Compte-Bellot	Time until Otto Laporte Lecture:
-1	11	45	1	40	2	5	0	APS/DFD-2014: Stanley Corrsin  \n Award Lecture  (Level 1 Hall) \n Eberhard Bodenschatz	Time until Stanley Corrsin Award Lecture:
-1	13	35	1	30	2	5	0	APS/DFD-2014: Invited Sessions:\n Jean-Marc Chomaz (Rooms 3001/3003) \n Thierry Poinsot (Rooms 3009/3011)	Time until invited sessions:
+1	10	25	1	35	5	0	0	APS/DFD-2014: Plenary/Awards Session\n(Level 1 Hall)	Time until Plenary/Award session:
+1	11	0	1	40	2	5	0	APS/DFD-2014: Fluid Dynamics Prize\nOtto Laporte Lecture (Level 1 Hall)\nGenevieve Compte-Bellot	Time until Otto Laporte Lecture:
+1	11	45	1	40	2	5	0	APS/DFD-2014:\nStanley Corrsin Award Lecture  (Level 1 Hall)\nEberhard Bodenschatz	Time until Stanley Corrsin Award Lecture:
+1	13	35	1	30	2	5	0	APS/DFD-2014: Invited Sessions\nJean-Marc Chomaz (3001/3003)\nThierry Poinsot (3009/3011)	Time until invited sessions:
 1	14	15	10	10	2	2	1	APS/DFD-2014: Sessions D1-D36	Time until sessions D1-D36 start:
 1	16	45	6	10	2	2	1	APS/DFD-2014: Sessions E1-E36	Time until sessions E1-E36 start:
-1	18	15	1	45	0	0	0	APS/DFD-2014: Poster Sessions\n Poster Session (Level 2 Lobby) \n Student Poster Competition (Level 3 Lobby)	Time until Poster Sessions start:
-1	19	0	1	150	0	0	0	APS/DFD-2014: Reception \n (Level 1 Hall)	\n Time until Reception starts:
+1	18	15	1	45	0	0	0	APS/DFD-2014: Poster Sessions\nPoster Session (Level 2 Lobby)\nStudent Poster Competition (Level 3 Lobby)	Time until poster sessions:
+1	19	0	1	150	0	0	0	APS/DFD-2014: Reception\n(Level 1 Hall)	Time until Reception starts:
 2	8	0	10	10	2	2	1	APS/DFD-2014: Sessions G1-G36	Time until sessions G1-G36 start:
 2	10	30	10	10	2	2	1	APS/DFD-2014: Sessions H1-H36	Time until sessions H1-H36 start:
-2	14	0	1	30	2	5	0	APS/DFD-2014: Invited Sessions:\n Howard Stone (Rooms 3001/3003) \n Ann Almgren (Rooms 3009/3011)	Time until invited sessions:
-2	14	40	1	30	2	5	0	APS/DFD-2014: Invited Sessions:\n Tim Colonius (Rooms 3001/3003) \n Thomas Peacock (Rooms 3009/3011)	Time until invited sessions:
+2	14	0	1	30	2	5	0	APS/DFD-2014: Invited Sessions\nHoward Stone (3001/3003)\nAnn Almgren (3009/3011)	Time until invited sessions:
+2	14	40	1	30	2	5	0	APS/DFD-2014: Invited Sessions\nTim Colonius (3001/3003)\nThomas Peacock (3009/3011)	Time until invited sessions:
 2	15	35	12	10	2	2	1	APS/DFD-2014: Sessions L1-L36	Time until sessions L1-L36 start:
 3	8	0	10	10	2	2	1	APS/DFD-2014: Sessions M1-M36	Time until sessions M1-M36 start:
-3	10	30	1	30	2	5	0	APS/DFD-2014: Invited Sessions:\n Viswanathan Kumarann (Rooms 3001/3003) \n Fotis Sotiropoulos (Rooms 3009/3011)	Time until invited sessions:
-3	11	10	1	17	2	3	0	APS/DFD-2014: Invited Sessions:\n F. Frenkiel Award Winner (Rooms 3001/3003) \n A. Acrivos Dissertation Award Winner (Rooms 3009/3011)	Time until invited sessions start:
-3	13	5	 12	10	2	2	1	APS/DFD-2014: Sessions R1 - R36	Time until sessions R1 - R36 start:
-3	15	41	1	60	0	0	0	APS/DFD-2014: \n Thank you all participants!\n We hope you enjoyed your stay in \n San Francisco!	.
-Current Day:	3	(Only need to set if you had to restart the program)
+3	10	30	1	30	2	5	0	APS/DFD-2014: Invited Sessions\nViswanathan Kumaran (3001/3003)\nFotis Sotiropoulos (3009/3011)	Time until invited sessions:
+3	11	10	1	17	2	3	0	APS/DFD-2014: Invited Sessions\nF. Frenkiel Award Winner (3001/3003)\nA. Acrivos Dissertation Award Winner (3009/3011)	Time until invited sessions:
+3	13	5	 12	10	2	2	1	APS/DFD-2014: Sessions R1-R36	Time until sessions R1-R36 start:
+3	15	41	1	60	0	0	0	APS/DFD-2014\nThank you all participants!\nWe hope you enjoyed your stay in\nSan Francisco!	.
+Current Day:	1	(Only need to set if you had to restart the program)
