@@ -40,13 +40,13 @@ platform='mac';
 
 % Specify input file
 % For simplicity, you can edit this using Microsoft Excel
-timing_setup='setup/APS_DFD2014b_setup.dat';
-%timing_setup='setup/APS_DFD2014_test.dat';
+%timing_setup='setup/APS_DFD2014b_setup.dat';
+timing_setup='setup/TFSA15.dat';
 
 % This code will read in the schedule.  The last line specifies the current day
 % (which is 1 right now).  If you have to restart due to a change in
 % schedule or otherwise, you need to set this to the appropriate day.
-NLIN = 22;
+NLIN = 20;
 
 % You should not have to modify anything below this point.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
